@@ -1,0 +1,61 @@
+nav{
+    width: 1500px;
+    height: 70px;
+    background-color: green;
+}
+
+.id1{
+    padding: 8px; 
+    float: right;
+    margin: auto;
+}
+
+h4{
+    color: aqua;
+    text-align: center;
+}
+
+h3{
+    color: aqua;
+    text-align: center;
+}
+h3:hover{
+    color: orange;
+}
+
+
+span{
+    color: antiquewhite;
+   
+}
+
+h4:hover{
+    color: orange;
+}
+
+
+
+.id2{
+    float: left; 
+}
+
+body{
+    background-color: antiquewhite;
+    background-image: url('th.jpeg');
+    background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    height: 109vh;
+}
+
+div{
+    padding-top: 200px;
+    padding-left: 600px;
+    color: aquamarine;
+}
+
+h1.id3{
+    padding: auto;
+    margin: auto;
+   
+}

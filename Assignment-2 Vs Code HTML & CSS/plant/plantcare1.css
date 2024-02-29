@@ -1,0 +1,55 @@
+nav{
+    width: 1500px;
+    height: 70px;
+    background-color: green;
+}
+
+.id1{
+    padding: 8px; 
+    float: right;
+    margin: auto;
+}
+
+h4{
+    color: aqua;
+}
+
+span{
+    color: antiquewhite;
+   
+}
+
+h4:hover{
+    color: orange;
+}
+
+
+
+.id2{
+    float: left; 
+}
+
+body{
+    background-color: antiquewhite;
+    background-image: url('th.jpeg');
+    background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    height: 109vh;
+}
+
+.img1{
+    padding-top: 50px;
+    padding-left: 480px;
+}
+
+.img1:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+button{
+    background-color: gray;
+    color: rgb(16, 0, 4);
+   margin-left: 700px;
+   margin-bottom: 50px;
+}

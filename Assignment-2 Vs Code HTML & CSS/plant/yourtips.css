@@ -1,0 +1,53 @@
+nav{
+    width: 1500px;
+    height: 70px;
+    background-color: green;
+}
+
+.id1{
+    padding: 8px; 
+    float: right;
+    margin: auto;
+}
+
+h4{
+    color: aqua;
+}
+
+span{
+    color: antiquewhite;
+   
+}
+
+h4:hover{
+    color: orange;
+}
+
+
+
+.id2{
+    float: left; 
+}
+
+body{
+    background-color: antiquewhite;
+    background-image: url('th.jpeg');
+    background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    height: 109vh;
+}
+
+input{
+    display: none;
+}
+label{
+    height: 100px;
+    width: 150px;
+    border-radius: 6px;
+    border: 5px dashed blue;
+    color: red;
+    padding: 200px;
+    margin-left: 400px;
+}
+

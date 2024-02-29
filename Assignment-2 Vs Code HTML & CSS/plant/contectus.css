@@ -1,0 +1,91 @@
+nav{
+    width: 1500px;
+    height: 70px;
+    background-color: green;
+}
+
+.id1{
+    padding: 8px; 
+    float: right;
+    margin: auto;
+}
+
+h4{
+    color: aqua;
+}
+
+span{
+    color: antiquewhite;
+   
+}
+
+h4:hover{
+    color: orange;
+}
+
+
+
+.id2{
+    float: left; 
+}
+
+body{
+    background-color: antiquewhite;
+    background-image: url('th.jpeg');
+    background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    height: 109vh;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    
+    padding: 10px;
+  }
+ 
+  .column {
+   
+    width: 70%;
+    margin-top: 6px;
+    padding: 20px;
+    padding-left:500px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
